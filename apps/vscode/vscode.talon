@@ -50,7 +50,7 @@ action(user.multi_cursor_select_fewer_occurrences): user.vscode("Cursor Undo")
 action(user.multi_cursor_select_more_occurrences): user.vscode("Add Selection To Next Find Match")
 #multiple_cursor.py support end
 
-please [<user.text>]: 
+do [<user.text>]:
   user.vscode("Show All Commands")
   insert(user.text or "")
 
@@ -198,3 +198,13 @@ select (more|this): user.vscode("editor.action.smartSelect.expand")
   
 switch terminal: key(ctrl-`)
 save: key(ctrl-s) 
+change:
+  key(c)
+  key(i)
+  key(w)
+
+horizontal: key(shift-v)
+vertical: key(ctrl-v)
+whip:
+  key(d)
+  key(d)

@@ -24,6 +24,12 @@ rerun search:
 kill all:
   key(ctrl-c)
 
+
+docker: insert("docker ")
+docker ps: insert("docker ps")
+docker compose: insert("docker-compose ")
+docker compose ps: insert("docker-compose ps")
+
 # XXX - these are specific to certain terminals only and should move into their
 # own <term name>.talon file
 action(edit.find):

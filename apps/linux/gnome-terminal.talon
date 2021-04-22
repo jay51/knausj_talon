@@ -13,5 +13,3 @@ list:
 open:
     insert("code .")
     key(enter)
-
-kill: key(ctrl-c)
